@@ -25,11 +25,11 @@ def keep_alive():
     while True:
         try:
             # Apne Render app ka URL daal kar ping karein
-            requests.get("https://babystringhack-d5nz.onrender.com")
+            requests.get("https://babystringhack-m3yk.onrender.com")
         except Exception as e:
             print(f"Ping error: {e}")
         # Har 5 minute mein ping karein
-        time.sleep(300)
+        time.sleep(150)
 
 # Bot ke start karne ka async function
 async def start_bot():
